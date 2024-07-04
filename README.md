@@ -1,20 +1,12 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
+    <span>Bootcamp Nexa - Machine Learning para Iniciantes na AWS</span>
+</h1>
+
+# :computer: Desafio: Previsão de Estoque Inteligente na AWS com Sagemaker Canvas
 
 Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
-
-## 📋 Pré-requisitos
-
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
-
-
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
-
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
-
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
-
 
 ## 🚀 Passo a Passo
 
@@ -42,6 +34,17 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-## 🤔 Dúvidas?
+# :bulb: Solução do desafio
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+## Problemas para executar o SageMaker
+
+Para executar o SageMaker é necessário criar um Domínio, porém a Amazon não havia adicionado nenhuma cota para criação de domínio na minha conta.
+
+![Resource_limit](https://github.com/tsdes-santiago/projetoDIOawsSagemakerCanvasEstoque/assets/139132478/5100972a-c569-4d87-8506-c60f906b48e4)
+
+Foi necessário solicitar o aumento da cota e aguardar a resposta da Amazon:
+
+![SolicitandoDomain](https://github.com/tsdes-santiago/projetoDIOawsSagemakerCanvasEstoque/assets/139132478/e2a733ce-941f-4075-acc3-da0baeca107f)
+
+
+
