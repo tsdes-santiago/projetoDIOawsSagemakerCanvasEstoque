@@ -95,9 +95,3 @@ São retornadas as curvas (de cima para baixo) P90, P50 e P10.
 ![single_prediction_2](https://github.com/tsdes-santiago/projetoDIOawsSagemakerCanvasEstoque/assets/139132478/384e733c-9f67-42eb-8fbc-ad91ed0fe484)
 
 A curva P50, que está mais próxima da média, parece ser mais recomendata para previsão. Porém esse dataset é bem pequeno. Tendo apenas valores para 3 datas. Um dataset maior levaria a uma melhor performance do modelo.
-
-# Custo
-
-O treinamento do modelo levou a um custo de US$0,01
-
-![custo](https://github.com/tsdes-santiago/projetoDIOawsSagemakerCanvasEstoque/assets/139132478/3c2c64bd-f01b-4f92-b82a-729067992aa2)
